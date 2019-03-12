@@ -29,9 +29,6 @@ s.framework = "UIKit"
 # 8
 s.source_files = "ESSTimerView/**/*.{swift}"
 
-# 9
-s.resources = "ESSTimerView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
 # 10
 s.swift_version = "4.2"
 
