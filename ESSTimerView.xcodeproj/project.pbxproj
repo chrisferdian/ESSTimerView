@@ -10,6 +10,14 @@
 		84C941212237EDDB00F5F49D /* ESSTimerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C941172237EDDB00F5F49D /* ESSTimerView.framework */; };
 		84C941262237EDDB00F5F49D /* ESSTimerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941252237EDDB00F5F49D /* ESSTimerViewTests.swift */; };
 		84C941282237EDDB00F5F49D /* ESSTimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C9411A2237EDDB00F5F49D /* ESSTimerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C941352237EE0700F5F49D /* ESSCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941312237EE0700F5F49D /* ESSCardView.swift */; };
+		84C941362237EE0700F5F49D /* ESSCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941312237EE0700F5F49D /* ESSCardView.swift */; };
+		84C941372237EE0700F5F49D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941322237EE0700F5F49D /* Extension.swift */; };
+		84C941382237EE0700F5F49D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941322237EE0700F5F49D /* Extension.swift */; };
+		84C941392237EE0700F5F49D /* ESSTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941332237EE0700F5F49D /* ESSTimerView.swift */; };
+		84C9413A2237EE0700F5F49D /* ESSTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941332237EE0700F5F49D /* ESSTimerView.swift */; };
+		84C9413B2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */; };
+		84C9413C2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,10 @@
 		84C941202237EDDB00F5F49D /* ESSTimerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESSTimerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C941252237EDDB00F5F49D /* ESSTimerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESSTimerViewTests.swift; sourceTree = "<group>"; };
 		84C941272237EDDB00F5F49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C941312237EE0700F5F49D /* ESSCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSCardView.swift; sourceTree = "<group>"; };
+		84C941322237EE0700F5F49D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		84C941332237EE0700F5F49D /* ESSTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSTimerView.swift; sourceTree = "<group>"; };
+		84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSTimerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,10 @@
 		84C941192237EDDB00F5F49D /* ESSTimerView */ = {
 			isa = PBXGroup;
 			children = (
+				84C941312237EE0700F5F49D /* ESSCardView.swift */,
+				84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */,
+				84C941332237EE0700F5F49D /* ESSTimerView.swift */,
+				84C941322237EE0700F5F49D /* Extension.swift */,
 				84C9411A2237EDDB00F5F49D /* ESSTimerView.h */,
 				84C9411B2237EDDB00F5F49D /* Info.plist */,
 			);
@@ -148,6 +164,7 @@
 				TargetAttributes = {
 					84C941162237EDDB00F5F49D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					84C9411F2237EDDB00F5F49D = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C9413B2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */,
+				84C941392237EE0700F5F49D /* ESSTimerView.swift in Sources */,
+				84C941352237EE0700F5F49D /* ESSCardView.swift in Sources */,
+				84C941372237EE0700F5F49D /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C9413A2237EE0700F5F49D /* ESSTimerView.swift in Sources */,
+				84C941382237EE0700F5F49D /* Extension.swift in Sources */,
+				84C9413C2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */,
+				84C941362237EE0700F5F49D /* ESSCardView.swift in Sources */,
 				84C941262237EDDB00F5F49D /* ESSTimerViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +366,7 @@
 		84C9412C2237EDDB00F5F49D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chrizers.com.ESSTimerView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +393,7 @@
 		84C9412D2237EDDB00F5F49D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +419,7 @@
 		84C9412F2237EDDB00F5F49D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8GH3U9J536;
 				INFOPLIST_FILE = ESSTimerViewTests/Info.plist;
@@ -409,6 +438,7 @@
 		84C941302237EDDB00F5F49D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8GH3U9J536;
 				INFOPLIST_FILE = ESSTimerViewTests/Info.plist;
