@@ -41,7 +41,7 @@ class ESSTimerView: UIView {
     /**
      * Initialize warning color
      */
-    @IBInspectable var warningColor:UIColor = UIColor.hexStringToUIColor(hex: "") {
+    @IBInspectable var warningColor:UIColor = UIColor.hexStringToUIColor(hex: "#a83a32") {
         didSet {
             setupLabelView()
         }
