@@ -11,18 +11,44 @@ import XCTest
 
 class ESSTimerViewTests: XCTestCase {
 
+    var card:ESSCardView?
+    var blackColor:UIColor?
+    var timerView:ESSTimerView?
+    var dummyVC:DummyViewController?
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        dummyVC = DummyViewController()
+        card = ESSCardView(frame: .zero)
+        blackColor = UIColor.hexStringToUIColor(hex: "#000")
+        timerView = ESSTimerView(frame: .zero)
+        dummyVC?.timer = timerView
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        card = nil
+        blackColor = nil
+        timerView = nil
     }
 
-    func testExample() {
-        
-    }
+    func testTimerView() {
+        let e = expectation(description: "timer running")
+        timerView?.seconds = 75
+        timerView?.runTimer()
+        XCTAssertNotNil(timerView?.activeColor)
+        DispatchQueue.main.async {
+            e.fulfill()
+        }
+        waitForExpectations(timeout: 75.0, handler: nil)
+        XCTAssert(true)
 
+    }
+    
+    func testCard() {
+        XCTAssertNotNil(card)
+    }
+    func testHexColor() {
+        XCTAssertNotNil(blackColor)
+    }
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
