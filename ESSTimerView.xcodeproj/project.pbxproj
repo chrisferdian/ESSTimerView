@@ -18,6 +18,7 @@
 		84C9413A2237EE0700F5F49D /* ESSTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941332237EE0700F5F49D /* ESSTimerView.swift */; };
 		84C9413B2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */; };
 		84C9413C2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */; };
+		B609D19422E82147009F4B32 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609D19322E82147009F4B32 /* DummyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		84C941322237EE0700F5F49D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		84C941332237EE0700F5F49D /* ESSTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSTimerView.swift; sourceTree = "<group>"; };
 		84C941342237EE0700F5F49D /* ESSTimerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESSTimerDelegate.swift; sourceTree = "<group>"; };
+		B609D19322E82147009F4B32 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				84C941252237EDDB00F5F49D /* ESSTimerViewTests.swift */,
 				84C941272237EDDB00F5F49D /* Info.plist */,
+				B609D19322E82147009F4B32 /* DummyViewController.swift */,
 			);
 			path = ESSTimerViewTests;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C9413A2237EE0700F5F49D /* ESSTimerView.swift in Sources */,
+				B609D19422E82147009F4B32 /* DummyViewController.swift in Sources */,
 				84C941382237EE0700F5F49D /* Extension.swift in Sources */,
 				84C9413C2237EE0700F5F49D /* ESSTimerDelegate.swift in Sources */,
 				84C941362237EE0700F5F49D /* ESSCardView.swift in Sources */,
